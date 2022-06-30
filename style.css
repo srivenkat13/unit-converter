@@ -7,7 +7,7 @@ body {
 .hero {
   background: #6943fe;
   color: white;
-  padding: 30px;
+  padding: 1px 30px 30px 30px;
 }
 
 input {
@@ -38,7 +38,6 @@ button {
   font-size: 16px;
   font-weight: bold;
   padding: 10px 20px;
-  margin-bottom: 20px;
   border: none;
   cursor: pointer;
 }
@@ -66,6 +65,7 @@ button:active {
 }
 
 /* Custom scroll */
+/* redundant as content is set to screen width */
 ::-webkit-scrollbar {
   width: 15px;
 }
